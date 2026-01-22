@@ -1,5 +1,8 @@
 ﻿# 💖 Valentine Proposal Website
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://maull123es.github.io/valentine-project/)
+
 A beautiful, interactive Valentine''s Day proposal website with playful animations, music, and a heartfelt celebration page. Make your special someone smile with this digital Valentine''s surprise!
 
 ## 🌐 Live Demo
