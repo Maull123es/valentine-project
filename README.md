@@ -29,7 +29,7 @@ A beautiful, interactive Valentine''s Day proposal website with playful animatio
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 valentine-project/
 ├── index.html                    # Main proposal page
 ├── yes_page.html                 # Celebration page (after "Yes")
@@ -42,7 +42,7 @@ valentine-project/
 └── assets/
     ├── images/                   # Your photos (couple-photo.jpg, memory1.jpg, etc.)
     └── audio/                    # Background music (bg-music.mp3)
-\`\`\`
+```
 
 ## 🚀 Quick Start
 
@@ -130,7 +130,16 @@ Feel free to fork this project and customize it for your own Valentine''s Day pr
 
 ## 📄 License
 
-This project is available for personal use. Please give credit if you modify and share.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### What does this mean?
+- ✅ **You can**: Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+- ✅ **You can**: Use for personal or commercial projects
+- ✅ **You can**: Modify and create derivative works
+- ✅ **You must**: Include the original copyright notice and license
+- ❌ **The authors are not liable** for any damages
+
+**TL;DR**: Feel free to use this for your own Valentine's proposal! Just give credit if you share it.
 
 ## 🙏 Acknowledgments
 
