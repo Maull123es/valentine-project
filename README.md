@@ -161,6 +161,3 @@ Happy Valentine''s Day! May your love story be as beautiful as this website 💘
 ---
 
 *Made with ❤️ by [Maull123es](https://github.com/Maull123es) for someone very special.*
-'@ | Out-File -FilePath README.md -Encoding UTF8
-
-echo "✅ README.md updated with badges!"
