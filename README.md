@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://maull123es.github.io/valentine-project/)
+[![Made with Love](https://img.shields.io/badge/Made%20with-Love-red)](https://github.com/Maull123es/valentine-project)
 
 A beautiful, interactive Valentine''s Day proposal website with playful animations, music, and a heartfelt celebration page. Make your special someone smile with this digital Valentine''s surprise!
 
@@ -57,42 +58,42 @@ valentine-project/
 
 ### For Developers (You):
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/Maull123es/valentine-project.git
-   \`\`\`
-2. Add your photos to \`assets/images/\`:
-   - \`couple-photo.jpg\` (main photo, 800x800px recommended)
-   - \`memory1.jpg\`, \`memory2.jpg\` (optional additional memories)
-3. Add background music to \`assets/audio/bg-music.mp3\`
-4. Customize messages in \`js/script.js\` (lines 2-22)
-5. Open \`index.html\` in your browser to test locally
+   ```
+2. Add your photos to `assets/images/`:
+   - `couple-photo.jpg` (main photo, 800x800px recommended)
+   - `memory1.jpg`, `memory2.jpg` (optional additional memories)
+3. Add background music to `assets/audio/bg-music.mp3`
+4. Customize messages in `js/script.js` (lines 2-22)
+5. Open `index.html` in your browser to test locally
 6. Deploy to GitHub Pages for sharing
 
 ## 🛠️ Customization Guide
 
 ### Change Photos
-Replace the files in \`assets/images/\`:
-- \`couple-photo.jpg\` - Your main photo together
-- \`memory1.jpg\`, \`memory2.jpg\` - Additional memories
+Replace the files in `assets/images/`:
+- `couple-photo.jpg` - Your main photo together
+- `memory1.jpg`, `memory2.jpg` - Additional memories
 
 ### Change Messages
-Edit \`js/script.js\`:
-\`\`\`javascript
+Edit `js/script.js`:
+```javascript
 const messages = [
     "Are you sure?",
     "Really sure?",
     "Think again!",
     // Add your own messages here
 ];
-\`\`\`
+```
 
 ### Change Music
-Replace \`assets/audio/bg-music.mp3\` with your favorite romantic song (MP3 format, < 5MB recommended).
+Replace `assets/audio/bg-music.mp3` with your favorite romantic song (MP3 format, < 5MB recommended).
 
 ### Personalize Text
 Edit these files:
-- \`index.html\` - Main proposal text
-- \`yes_page.html\` - Celebration message
+- `index.html` - Main proposal text
+- `yes_page.html` - Celebration message
 - Update the signature with your name
 
 ## 📱 Responsive Design
@@ -115,20 +116,20 @@ The website automatically adapts to:
 
 | Color | Hex | Usage |
 |-------|-----|-------|
-| Romantic Pink | \`#ff6b8b\` | Primary buttons, headers |
-| Warm Orange | \`#ff8e53\` | Accents, highlights |
-| Celebration Gold | \`#ffd700\` | Yes page, trophies |
-| Soft Purple | \`#a06cd5\` | Quotes, secondary elements |
-| Success Green | \`#40e495\` | Yes button, positive elements |
+| Romantic Pink | `#ff6b8b` | Primary buttons, headers |
+| Warm Orange | `#ff8e53` | Accents, highlights |
+| Celebration Gold | `#ffd700` | Yes page, trophies |
+| Soft Purple | `#a06cd5` | Quotes, secondary elements |
+| Success Green | `#40e495` | Yes button, positive elements |
 
 ## 🤝 Contributing
 
 Feel free to fork this project and customize it for your own Valentine''s Day proposal! 
 
 1. Fork the repository
-2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
-3. Commit your changes (\`git commit -m ''Add some AmazingFeature''\`)
-4. Push to the branch (\`git push origin feature/AmazingFeature\`)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m ''Add some AmazingFeature''`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
 ## 📄 License
@@ -142,7 +143,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - ✅ **You must**: Include the original copyright notice and license
 - ❌ **The authors are not liable** for any damages
 
-**TL;DR**: Feel free to use this for your own Valentine's proposal! Just give credit if you share it.
+**TL;DR**: Feel free to use this for your own Valentine''s proposal! Just give credit if you share it.
 
 ## 🙏 Acknowledgments
 
@@ -160,3 +161,6 @@ Happy Valentine''s Day! May your love story be as beautiful as this website 💘
 ---
 
 *Made with ❤️ by [Maull123es](https://github.com/Maull123es) for someone very special.*
+'@ | Out-File -FilePath README.md -Encoding UTF8
+
+echo "✅ README.md updated with badges!"
