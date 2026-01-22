@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAY! You Said YES! 💖</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/yes-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/heart-icon.png">
+</head>
+<body class="yes-page">
+    <div class="container yes-container">
+        <div class="header">
+            <h1><i class="fas fa-heart"></i> YAY! YOU SAID YES! <i class="fas fa-heart"></i></h1>
+            <p class="subtitle">Best Decision Ever! 🎉💕</p>
+            <p class="quote">"And in that moment, everything changed..."</p>
+        </div>
+
+        <div class="celebration">
+            <div class="confetti-container" id="confettiContainer"></div>
+            <div class="trophy">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <p class="celebrate-text">CONGRATULATIONS! 🥳</p>
+            <p class="sub-celebrate">You just made someone the happiest person alive!</p>
+        </div>
+
+        <div class="message-box">
+            <div class="message-content">
+                <h3><i class="fas fa-envelope-open-text"></i> A Special Message For You:</h3>
+                <p class="message">
+                    "From the moment you said 'Yes', my world became brighter. <br>
+                    Thank you for choosing me, for believing in us, <br>
+                    and for making this day unforgettable. <br>
+                    This is just the beginning of our beautiful journey together! 💫"
+                </p>
+                <div class="signature">
+                    <p>With all my love and happiness,</p>
+                    <p class="name">[Your Name Here] 💌</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-box">
+            <h3><i class="fas fa-chart-pie"></i> Valentine Stats</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <div class="stat-info">
+                        <p class="stat-label">Times You Hesitated</p>
+                        <p class="stat-value" id="hesitationCount">0</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-info">
+                        <p class="stat-label">Decision Time</p>
+                        <p class="stat-value" id="decisionTime">Just now</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="stat-info">
+                        <p class="stat-label">Relationship Status</p>
+                        <p class="stat-value highlight">Officially Taken 💑</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-info">
+                        <p class="stat-label">Valentine's Date</p>
+                        <p class="stat-value" id="valentineDate">February 14, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="memory-gallery">
+            <h3><i class="fas fa-images"></i> Our Beautiful Memories</h3>
+            <div class="gallery" id="memoryGallery">
+                <!-- Memories will be loaded by JavaScript -->
+            </div>
+            <p class="gallery-hint">More memories to come... 📸✨</p>
+        </div>
+
+        <div class="actions">
+            <button class="action-btn celebration-btn" onclick="moreConfetti()">
+                <i class="fas fa-birthday-cake"></i> More Celebration!
+            </button>
+            <button class="action-btn share-btn" onclick="shareTheLove()">
+                <i class="fas fa-share-alt"></i> Share the Love
+            </button>
+            <button class="action-btn back-btn" onclick="goBack()">
+                <i class="fas fa-redo"></i> Back to Question
+            </button>
+        </div>
+
+        <div class="countdown">
+            <h3><i class="fas fa-hourglass-half"></i> Countdown to Our First Valentine's</h3>
+            <div class="countdown-timer" id="countdownTimer">
+                <div class="countdown-item">
+                    <span class="number" id="days">0</span>
+                    <span class="label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="number" id="hours">0</span>
+                    <span class="label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="number" id="minutes">0</span>
+                    <span class="label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="number" id="seconds">0</span>
+                    <span class="label">Seconds</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>This special moment has been saved forever in digital memory! 💾</p>
+            <p class="copyright">© 2024 - The Beginning of Us 💕</p>
+        </div>
+    </div>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    
+    <!-- Yes Page Script -->
+    <script src="js/yes-script.js"></script>
+</body>
+</html>

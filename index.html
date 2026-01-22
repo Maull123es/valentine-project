@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? ❤️</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/heart-icon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-heart"></i> Will you be my Valentine? <i class="fas fa-heart"></i></h1>
+            <p class="subtitle">beabadobee • Glue Song vibes 🎵</p>
+            <p class="quote">"I've never felt so sure, I want you to be mine"</p>
+        </div>
+
+        <div class="main-content">
+            <div class="photo-frame">
+                <div class="photo-placeholder" id="photoContainer">
+                    <!-- Foto akan dimuat via JavaScript -->
+                    <div class="loading">Loading memories... 💖</div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="yes-button" onclick="handleYesClick()">
+                    <i class="fas fa-check-circle"></i> YES! 
+                </button>
+                <button class="no-button" id="noButton">
+                    <i class="fas fa-question-circle"></i> Are you sure?
+                </button>
+            </div>
+
+            <div class="click-count">
+                <p id="clickCounter">"Are you sure?" clicked: <span>0</span> times</p>
+            </div>
+
+            <div class="music-control">
+                <button id="musicToggle">
+                    <i class="fas fa-music"></i> <span>Play Music</span>
+                </button>
+                <audio id="bgMusic" loop preload="auto">
+                    <source src="assets/audio/bg-music.mp3" type="audio/mpeg">
+                    Your browser does not support audio.
+                </audio>
+            </div>
+
+            <div class="hint-box">
+                <p><i class="fas fa-lightbulb"></i> Pro tip: The "Yes" button grows bigger every time you hesitate!</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Made with <i class="fas fa-heart" style="color:#ff4757;"></i> for the most special person</p>
+            <p class="copyright">© 2024 My Valentine Project</p>
+        </div>
+    </div>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
