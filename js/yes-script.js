@@ -470,7 +470,7 @@ function setupEventListeners() {
         }
         
         @keyframes pulseNumber {
-            0%, 100% { transform: scale(1); }
+            0%, 100% { transform: scale(1); } 
             50% { transform: scale(1.2); }
         }
         
